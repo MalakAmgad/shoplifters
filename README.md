@@ -129,8 +129,8 @@ shoplifter_detection/
 - **Sample Frames Displayed**: UI presents extracted frames when a shoplifting incident is detected.
 
 ## Visuals
-![CNF](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/cnf3.png)
-![processing](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/original.png)
+![CNF](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/cnf3.PNG)
+![processing](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/original.PNG)
 
 ## Future Improvements
 - Expand dataset for improved generalization.
