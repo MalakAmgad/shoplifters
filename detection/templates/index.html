@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoplifter Detection</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Shoplifter Detection</h1>
+        <form action="{% url 'detect' %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="video" required>
+            <button type="submit">Upload & Detect</button>
+        </form>
+    </div>
+
+    {% if detected is not None %}
+    <div class="result">
+        {% if detected %}
+            <h2>Shoplifter Detected</h2>
+            <img src="{% static 'images/detected.png' %}" alt="Shoplifter Detected">
+        {% else %}
+            <h2>No Shoplifter Detected</h2>
+            <img src="{% static 'images/not_detected.png' %}" alt="No Shoplifter Detected">
+        {% endif %}
+    </div>
+    {% endif %}
+</body>
+</html>
