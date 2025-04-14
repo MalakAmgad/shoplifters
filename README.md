@@ -75,8 +75,8 @@ model = Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 ```
 
-Model achieves **99% accuracy** on validation data.
-
+Model achieves **97% accuracy** on validation data.
+MobileNetV3Large achived **99% accuracy** 
 ## Deployment (Django)
 ### Steps:
 1. **Setup Django Project**
