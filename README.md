@@ -2,8 +2,8 @@
 
 ## Overview
 This project focuses on detecting shoplifting behavior using a deep learning model trained on video datasets. The model analyzes video frames and determines whether a shoplifting incident has occurred.
-![UI Screenshot](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/Screenshot%20(910).png)
-![UI Screenshot](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/Screenshot%20(911).png)
+
+![processing](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/original.PNG)
 
 ## Dataset
 - **Shoplifter Videos**: Contains clips of individuals engaging in shoplifting behavior.
@@ -131,6 +131,8 @@ shoplifter_detection/
 ## Visuals
 ![CNF](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/cnf3.PNG)
 ![processing](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/original.PNG)
+![UI Screenshot](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/Screenshot%20(910).png)
+![UI Screenshot](https://github.com/MalakAmgad/shoplifters/blob/main/detection/static/images/Screenshot%20(911).png)
 
 ## Future Improvements
 - Expand dataset for improved generalization.
